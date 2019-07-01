@@ -1,0 +1,42 @@
+{
+  "name": "svelte-persist",
+  "version": "0.0.1",
+  "description": "Svelte persistence store",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.html,.svelte .",
+    "fix": "eslint --fix --ext .js,.html,.svelte .",
+    "format": "prettier --write --svelte-sort-order markup-scripts-styles --svelte-strict-mode true --plugin-search-dir=. **/*.svelte; prettier --write **/*.js; prettier --write **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddidwyll/svelte-persist.git"
+  },
+  "keywords": [
+    "svelte",
+    "store",
+    "persistence"
+  ],
+  "author": "Phil D'Oz <ddidwyll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddidwyll/svelte-persist/issues"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-svelte3": "^2.0.0",
+    "prettier": "^1.18.2",
+    "prettier-plugin-svelte": "^0.6.0",
+    "svelte": "^3.5.4"
+  },
+  "peerDependencies": {
+    "svelte": "^3.0.0"
+  },
+  "homepage": "https://github.com/ddidwyll/svelte-persist#readme"
+}

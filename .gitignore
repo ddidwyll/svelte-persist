@@ -1,0 +1,5 @@
+node_modules
+public/bundle.*
+public/modules.*
+package-lock.json
+.cache
