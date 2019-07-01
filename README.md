@@ -12,7 +12,10 @@ Example use
 <script>
   import persist from 'svelte-persist'
   
-  /* when 0 - default value */
+  /* 
+    where 0 - default value
+    someVariableName - name of localStorage item 
+  */
   const count = persist('someVariableName', 0)
 </script>
 ```
