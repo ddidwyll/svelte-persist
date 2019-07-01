@@ -16,4 +16,14 @@ Example use
   const count = persist('someVariableName', 0)
 </script>
 ```
+```Html
+<p>{$text}</p>
+<input bind:value={$text} />
+
+<script>
+  import persist from 'svelte-persist'
+  
+  const text = persist('text', '')
+</script>
+```
 Then you can reload page for testing
