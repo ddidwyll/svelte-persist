@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store'
 import { tick } from 'svelte'
 
-const persist = (name, value) => {
+export const persist = (name, value) => {
   const stored = localStorage.getItem(name)
   value = writable(!stored ? value : JSON.parse(stored))
   value.subscribe(value => {
@@ -34,5 +34,3 @@ export const debounced = (name, value, delay = 300) => {
   }
   return { subscribe, set: debounce }
 }
-
-export default persist
