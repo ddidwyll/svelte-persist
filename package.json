@@ -23,17 +23,17 @@
     "url": "https://github.com/ddidwyll/svelte-persist/issues"
   },
   "devDependencies": {
-    "eslint": "^6.0.0",
+    "eslint": "^6.5.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
     "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-svelte3": "^2.6.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-svelte3": "^2.7.3",
     "prettier": "^1.18.2",
     "prettier-plugin-svelte": "^0.6.0",
-    "svelte": "^3.6.5"
+    "svelte": "^3.12.1"
   },
   "peerDependencies": {
     "svelte": "^3.0.0"
